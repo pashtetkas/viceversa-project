@@ -1,7 +1,8 @@
 <h1>Vice versa</h1>
-<form>
+<form action="{% url 'reverse' %}">
 
-<textarea name="vice-textarea" rows="10" cols="50">	</textarea>
+<textarea rows="10" cols="50" name="usertext"></textarea>
+
 <br><br>
 <input type="submit" value = "Reverse!">
 
